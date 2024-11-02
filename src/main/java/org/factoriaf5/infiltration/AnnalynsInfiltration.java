@@ -4,6 +4,7 @@ public class AnnalynsInfiltration {
 
     public static boolean canFastAttack(boolean knightIsAwake) {
         // Implement method
+       
     }
 
     public static boolean canSpy(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake) {
@@ -14,8 +15,7 @@ public class AnnalynsInfiltration {
         // Implement method
     }
 
-    public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake,
-            boolean petDogIsPresent) {
+    public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean petDogIsPresent) {
         // Implement method
     }
 
