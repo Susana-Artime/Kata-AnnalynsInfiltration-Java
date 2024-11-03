@@ -2,12 +2,21 @@ package org.factoriaf5.infiltration;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class AnnalynsInfiltrationTest {
+
+    @Test
+    @DisplayName("The constructor should instantiate AnnalynsInfiltration without errors")
+    public void testAnnalynsInfiltrationConstructor() {
+
+        AnnalynsInfiltration instance = new AnnalynsInfiltration();
+        assertNotNull(instance); 
+    }
 
     @Test
     @Tag("task:1")
